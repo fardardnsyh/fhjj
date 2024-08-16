@@ -5,6 +5,7 @@ export const initSocket = async () => {
         'force new connection': true,
         reconnectionAttempt: 'Infinity',
         timeout: 10000,
+        const socket = io("ws://echo.websocket.org", {
         transports: ['websocket'],
     };
     return io(process.env.REACT_APP_BACKEND_URL, options);
