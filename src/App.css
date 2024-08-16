@@ -1,0 +1,207 @@
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+    /* background: #354F52; */
+    background-image: linear-gradient(150deg, #ef4279f1, #3a48c6);
+}
+
+.formWrapper {
+    background: #232c3363;
+    backdrop-filter: blur(20);
+    border-radius: 10px;
+    width: 450px;
+    max-width: 90%;
+    padding: 3rem 2rem;
+    /* box-shadow: 0px 0px 20px #443636; */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: #4aee88;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.inputBox {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3a48c6;
+}
+
+.btn {
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.joinBtn,
+.leaveBtn,
+.text_submit {
+    background: #5fb1e7;
+    margin: 0 auto;
+    font-weight: 900;
+}
+
+.joinBtn:hover,
+.copyBtn:hover{
+    background: #21e76d;
+}
+
+.leaveBtn:hover{
+    background-color: rgb(214, 27, 27);
+}
+
+.copyBtn {
+    background: #bc89e2;
+    width: 100%;
+    padding: 0.65rem;
+}
+
+.createInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.createIDButton {
+    background-color: transparent;
+    border: none;
+}
+
+.createNewBtn {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-bottom: 1px solid white;
+    transition: all 0.2s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+    color: #72f0a2;
+    border-color: #72f0a2;
+}
+
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100vh;
+}
+
+.editorWrap {
+    height: 100%;
+    background-color: #263238;
+}
+
+.aside {
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #344c54;
+    align-items: center;
+}
+.asideInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  
+}
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    width: 50px;
+    
+}
+.userName {
+    margin-top: 10px;
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 0.6rem;
+}
+
+.logo {
+    border-bottom: 1px solid #424242;
+    padding-bottom: 10px;
+}
+
+.logoImage {
+    height: 60px;
+}
+
+.leaveBtn {
+    width: 100%;
+    margin-top: 20px;
+}
+.CodeMirror {
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+.realtimeEditor {
+    background-color: #fff;
+}
+
+.response {
+    display: flex;
+    flex-direction: column;
+    /* overflow-x: scroll; */
+    gap: 1rem;
+}
+
+.question {
+    max-width: 80%;
+    align-self: flex-end;
+    background-color: #6eada2;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.copyBtn{
+    background-color: #6eada2;
+}
